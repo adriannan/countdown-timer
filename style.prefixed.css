@@ -1,0 +1,38 @@
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    background: #010123;
+    background: radial-gradient(circle, #010123 21%, #0071b0 44%, #03072c 81%);
+    font-family: arial;
+    color: #fff;
+    text-shadow: 0 0 1em #77ceff;
+    -ms-flex-align: center;
+        align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-family: monospace;
+    font-size: 22px;
+}
+.date{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+.date label{
+    text-align: center;
+}
+.date input{
+    margin: 10px 0;
+    font-family: arial;
+}
