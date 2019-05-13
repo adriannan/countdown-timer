@@ -11,15 +11,20 @@
 <body>
 	<div class="date">
 		<label>Final date:</label>
-		<span><input type="datetime-local" class="final" value="2019-06-22T17:00">
-		<button type="submit">ok</button></span>
+		<span>
+			<!-- <input type="datetime-local" class="final" value="2019-06-22T17:00"> -->
+			<input type="date" class="final-date" value="2019-06-22"  min="2019-05-13">
+			<input type="time" class="final-time" value="17:00">
+			<button type="submit">ok</button>
+		</span>
 	</div>
+	
 	<p>Remained:</p>
 	<h1>
-		<span class="d">- </span>d
-		<span class="h">- </span>h
-		<span class="m">- </span>m
-		<span class="s">- </span>s
+		<span class="d">0 </span>d
+		<span class="h">00 </span>h
+		<span class="m">00 </span>m
+		<span class="s">00 </span>s
 	</h1>
 
 </body>
