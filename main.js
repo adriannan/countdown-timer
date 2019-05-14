@@ -32,13 +32,13 @@ const newEndTime = Math.floor(new Date(final).getTime()/1000)
 //     spanS.textContent = secs
 // }
 
-// let interval = setInterval(count, 1000)
+let interval = setInterval
 
 function newCount() {
     if(Math.floor(new Date(finalDate.value).getTime()/1000) < Math.floor(new Date().getTime() / 1000)) {
         return alert(`You can't change the past...`)
     } else {
-        // clearInterval(interval)
+        clearInterval(interval)
         const newEndTime = Math.floor(new Date(finalDate.value).getTime()/1000)
 
         interval = setInterval(()=>{
